@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,400;0,700;1,600&family=Poppins:ital,wght@0,300;1,100&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    :root{
+       --White: hsl(0, 0%, 100%);
+       --Lightgray: hsl(212, 45%, 89%);
+       --Grayishblue: hsl(220, 15%, 55%);
+       --Darkblue: hsl(218, 44%, 22%);
+       --Family: "Outfit";
+
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      background-color: var(--Lightgray);
+      padding: 0px;
+      margin: 0px;
+      max-width: 1440px;
+      min-width: 375px;
+    }
+    .box{
+      position: absolute;
+      top: 20%;
+      left: 40%;
+      background-color: white;
+      border-radius: 10px;
+    }
+   .box img{
+      margin-left:7px;
+      border-radius: 5px;
+      margin-top: 10px;
+   }
+   .box h1 {
+    text-align: center;
+    font-family: var(--Family);
+    margin: 20px;
+    font-size: 25px;
+    }
+    .box p{
+      text-align: center;
+    font-family: var(--Family);
+    margin: -10px 0px 30px 0px;
+    }
+  </style>
+</head>
+<body>
+
+  Improve your front-end skills by building projects
+
+  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Salman</a>.
+
+  </div>
+  <div class="box">
+    
+    <img src="../images/image-qr-code.png" alt="qr-code" width="300px" height="300px" >
+    <h1>Improve your front-end <br> skills by building projects</h1>
+    <p>Scan the QR code to visit Frontend <br> Mentor and take your coding skills to <br> the next level</p>
+  </div>
+</body>
+</html>
